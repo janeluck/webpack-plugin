@@ -1,0 +1,26 @@
+{
+  "name": "webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jane-webpack-plugin.js",
+  "dependencies": {
+    "webpack": "^4.26.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janeluck/webpack-plugin.git"
+  },
+  "author": "janeluck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janeluck/webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/janeluck/webpack-plugin#readme"
+}

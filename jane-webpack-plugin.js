@@ -1,4 +1,4 @@
-export default class JaneWebpackPlugin {
+class JaneWebpackPlugin {
   constructor() {}
   apply(compiler) {
     compiler.plugin("compilation", function(compilation) {
@@ -8,3 +8,5 @@ export default class JaneWebpackPlugin {
     });
   }
 }
+module.exports = JaneWebpackPlugin;
+
