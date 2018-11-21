@@ -1,3 +1,3 @@
-console.log('awesome start')
-console.log('webpack-plugin')
-console.log('awesome end')
+require('./awesome.jane')
+
+console.log('awesome')
